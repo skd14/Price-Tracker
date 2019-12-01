@@ -10,8 +10,8 @@ What I used**
     I used Twilio Web API to send sms to my mobile phone containing the link if the price has fallen.
 
 **Code Breakdown**
-*The Price Checking part*
 
+*The Price Checking part*
   -  We have to import requests, BeautifulSoup from bs4.
   - url variable contains the URL of the product you want to track.
   -  headers variable contains My User Agent details (You can get that by typing My User Agent in Google Search Bar)
@@ -25,7 +25,7 @@ What I used**
 
          
 
-**Sending SMS**
+*Sending SMS*
 
 For this you need to have a Twilio account which will give you the account id and a phone number so you can send SMS.
 We need to import Client from twilio.rest
