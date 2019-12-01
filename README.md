@@ -1,7 +1,7 @@
-Price-Trackers
+                                                    # Price-Trackers
 
-A python script to track the price of the product you were looking to buy for a cheaper rate.
-What I used
+**A python script to track the price of the product you were looking to buy for a cheaper rate.
+What I used**
 
     I used BeautifulSoup to parse the html file of the link provided.
     I used Python to check if the product's price is fallen to the desired price.
