@@ -27,7 +27,7 @@ What I used**
 
 **Sending SMS**
 
-    For this you need to have a Twilio account which will give you the account id and a phone number so you can send SMS.
-    We need to import Client from twilio.rest
-    client = Client('','') You have to enter the Account ID and AUTH Token as provided by twilio.
-    client.messages.create(to = '', from_='', body='') in to enter the phone number you have to send the message, in from_ enter the phone number provided to you by Twilio, in body enter the message you want to send.
+For this you need to have a Twilio account which will give you the account id and a phone number so you can send SMS.
+We need to import Client from twilio.rest
+ -  client = Client('','') You have to enter the Account ID and AUTH Token as provided by twilio.
+ - client.messages.create(to = '', from_='', body='') in to enter the phone number you have to send the message, in from_ enter the phone number provided to you by Twilio, in body enter the message you want to send.
